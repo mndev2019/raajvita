@@ -1,11 +1,16 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { HiOutlineMenuAlt3, HiX } from "react-icons/hi";
-import { Link, useNavigate } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import logo from "../assets/Images/logo.jpeg";
 
 function Navbar() {
   const navigate = useNavigate("");
   const [open, setOpen] = useState(false);
+
+    const location = useLocation();
+    useEffect(() => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }, [location]);
 
   const navLinks = [
     { name: "Home", path: "/" },

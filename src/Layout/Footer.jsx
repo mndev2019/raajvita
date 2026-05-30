@@ -7,7 +7,7 @@ import {
   FaPhoneAlt,
   FaEnvelope,
 } from "react-icons/fa";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import logo from '../assets/Images/logo.jpeg'
 
 function Footer() {
@@ -24,7 +24,7 @@ function Footer() {
 
           {/* Top CTA */}
           <div className="bg-gradient-to-r from-[#fff7e8] to-[#fdf1d8] rounded-[40px] px-8 lg:px-16 py-12 flex flex-col lg:flex-row items-center justify-between gap-8 shadow-2xl -mt-10 relative z-20">
-            
+
             <div>
               <span className="text-[#c89b3c] uppercase tracking-[4px] text-sm font-medium">
                 Let’s Connect
@@ -35,7 +35,7 @@ function Footer() {
               </h2>
             </div>
 
-            <button onClick={()=> navigate('contact-us')} className="bg-[#3c0d12] hover:bg-[#5a151d] text-white px-10 py-4 rounded-full text-lg font-medium transition-all duration-500 shadow-lg">
+            <button onClick={() => navigate('contact-us')} className="bg-[#3c0d12] hover:bg-[#5a151d] text-white px-10 py-4 rounded-full text-lg font-medium transition-all duration-500 shadow-lg">
               Contact Us
             </button>
           </div>
@@ -45,16 +45,14 @@ function Footer() {
 
             {/* Company Info */}
             <div>
-              
+
               {/* Logo */}
-              {/* <h2 className="text-3xl font-bold text-white">
-                Rajvita
-              </h2> */}
-               <img
-                              src={logo}
-                              alt="logo"
-                              className="w-20 h-20 object-contain"
-                            />
+
+              <img
+                src={logo}
+                alt="logo"
+                className="w-20 h-20 object-contain"
+              />
 
               <p className="text-[#f5e6c5] leading-8 mt-6">
                 Rajvita Vistar Developers Private Limited is committed
@@ -90,80 +88,79 @@ function Footer() {
 
             {/* Quick Links */}
             <div>
-              
+
               <h3 className="text-2xl font-semibold text-white mb-8">
                 Quick Links
               </h3>
 
-              <ul className="space-y-5">
 
+
+              <ul className="space-y-5">
                 <li>
-                  <a
-                    href="/"
+                  <Link
+                    to="/"
                     className="text-[#f5e6c5] hover:text-[#c89b3c] transition-all duration-300"
                   >
                     Home
-                  </a>
+                  </Link>
                 </li>
 
                 <li>
-                  <a
-                    href="/about-us"
+                  <Link
+                    to="/about-us"
                     className="text-[#f5e6c5] hover:text-[#c89b3c] transition-all duration-300"
                   >
                     About Us
-                  </a>
+                  </Link>
                 </li>
 
                 <li>
-                  <a
-                    href="/services"
+                  <Link
+                    to="/services"
                     className="text-[#f5e6c5] hover:text-[#c89b3c] transition-all duration-300"
                   >
                     Services
-                  </a>
+                  </Link>
                 </li>
 
                 <li>
-                  <a
-                    href="/projects"
+                  <Link
+                    to="/projects"
                     className="text-[#f5e6c5] hover:text-[#c89b3c] transition-all duration-300"
                   >
                     Projects
-                  </a>
+                  </Link>
                 </li>
 
                 <li>
-                  <a
-                    href="/contact-us"
+                  <Link
+                    to="/contact-us"
                     className="text-[#f5e6c5] hover:text-[#c89b3c] transition-all duration-300"
                   >
                     Contact Us
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
 
             {/* Services */}
             <div>
-              
+
               <h3 className="text-2xl font-semibold text-white mb-8">
                 Our Services
               </h3>
-
               <ul className="space-y-5 text-[#f5e6c5]">
-
-                <li>Premium Land Development</li>
-                <li>Real Estate Consultation</li>
-                <li>Property Investment</li>
-                <li>Legal Documentation</li>
-                <li>Project Development</li>
+                <li><Link to="/services">Premium Land Development</Link></li>
+                <li><Link to="/services">Real Estate Consultation</Link></li>
+                <li><Link to="/services">Property Investment</Link></li>
+                <li><Link to="/services">Legal Documentation</Link></li>
+                <li><Link to="/services">Project Development</Link></li>
               </ul>
             </div>
 
             {/* Contact Info */}
             <div>
-              
+
               <h3 className="text-2xl font-semibold text-white mb-8">
                 Contact Info
               </h3>
@@ -171,7 +168,7 @@ function Footer() {
               <div className="space-y-6">
 
                 <div className="flex items-start gap-4">
-                  
+
                   <div className="w-11 h-11 rounded-full bg-[#ffffff10] flex items-center justify-center text-[#c89b3c] shrink-0">
                     <FaMapMarkerAlt />
                   </div>
@@ -183,7 +180,7 @@ function Footer() {
                 </div>
 
                 <div className="flex items-center gap-4">
-                  
+
                   <div className="w-11 h-11 rounded-full bg-[#ffffff10] flex items-center justify-center text-[#c89b3c] shrink-0">
                     <FaPhoneAlt />
                   </div>
@@ -194,7 +191,7 @@ function Footer() {
                 </div>
 
                 <div className="flex items-center gap-4">
-                  
+
                   <div className="w-11 h-11 rounded-full bg-[#ffffff10] flex items-center justify-center text-[#c89b3c] shrink-0">
                     <FaEnvelope />
                   </div>
@@ -215,7 +212,7 @@ function Footer() {
             </p>
 
             <div className="flex items-center gap-6 text-sm text-[#f5e6c5]/80">
-              
+
               <p>CIN Registered Company</p>
 
               <div className="w-1.5 h-1.5 rounded-full bg-[#c89b3c]"></div>

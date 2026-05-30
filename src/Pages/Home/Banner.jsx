@@ -42,12 +42,12 @@ function Banner() {
             {/* Buttons */}
             <div className="flex flex-col sm:flex-row items-center gap-5 mt-10">
               
-              <button className="bg-[#d4a63f] hover:bg-[#f0c35a] transition-all duration-300 text-[#2b0608] px-8 py-4 rounded-full font-semibold flex items-center gap-3 shadow-2xl">
+              <button onClick={()=> navigate('/projects')} className="bg-[#d4a63f] hover:bg-[#f0c35a] transition-all duration-300 text-[#2b0608] px-8 py-4 rounded-full font-semibold flex items-center gap-3 shadow-2xl">
                 Explore Projects
                 <FaArrowRight />
               </button>
 
-              <button onClick={()=> navigate('contact-us')} className="border border-[#d4a63f] text-[#f3d58a] hover:bg-[#d4a63f] hover:text-[#2b0608] transition-all duration-300 px-8 py-4 rounded-full font-semibold">
+              <button onClick={()=> navigate('/contact-us')} className="border border-[#d4a63f] text-[#f3d58a] hover:bg-[#d4a63f] hover:text-[#2b0608] transition-all duration-300 px-8 py-4 rounded-full font-semibold">
                 Contact Us
               </button>
             </div>

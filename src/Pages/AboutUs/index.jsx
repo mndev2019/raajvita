@@ -6,8 +6,10 @@ import {
 } from "react-icons/fa";
 import about1 from '../../assets/Images/about1.jpg'
 import about2 from '../../assets/Images/about2.jpg'
+import { useNavigate } from "react-router-dom";
 
 const AboutUs = () => {
+  const navigate = useNavigate("");
   return (
     <div className="bg-[#f8f4ec] text-[#2d140f] overflow-hidden ">
 
@@ -39,7 +41,7 @@ const AboutUs = () => {
               transparency in real estate development.
             </p>
 
-            <button className="mt-8 bg-[#c89b3c] hover:bg-[#b88a2f] transition-all text-white px-8 py-3 rounded-full font-semibold shadow-xl">
+            <button onClick={()=> navigate('/projects')} className="mt-8 bg-[#c89b3c] hover:bg-[#b88a2f] transition-all text-white px-8 py-3 rounded-full font-semibold shadow-xl">
               Explore More
             </button>
           </div>
