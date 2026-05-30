@@ -48,11 +48,11 @@ function Trust() {
             </span>
 
             <h2 className="text-4xl lg:text-5xl font-semibold text-[#3c0d12] mt-4 leading-tight">
-              Why Investors Trust Rajvita Vistar Developers
+              Why Investors Trust Raajvita Vista Developers
             </h2>
 
             <p className="text-[#5e4b42] text-lg leading-8 mt-6">
-              Rajvita Vistar Developers combines military-grade discipline,
+              Raajvita Vista Developers combines military-grade discipline,
               complete legal transparency, and RERA-certified development
               practices to deliver secure and future-ready real estate
               opportunities.

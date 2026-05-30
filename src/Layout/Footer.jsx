@@ -55,7 +55,7 @@ function Footer() {
               />
 
               <p className="text-[#f5e6c5] leading-8 mt-6">
-                Rajvita Vistar Developers Private Limited is committed
+                Raajvita Vista Developers Private Limited is committed
                 to building a new benchmark of trust, discipline, and
                 transparency in the real estate sector.
               </p>
@@ -208,7 +208,7 @@ function Footer() {
           <div className="border-t border-[#ffffff15] py-6 flex flex-col lg:flex-row items-center justify-between gap-4">
 
             <p className="text-[#f5e6c5]/80 text-sm text-center lg:text-left">
-              © 2026 Rajvita Vistar Developers Pvt. Ltd. All Rights Reserved.
+              © 2026 Raajvita Vista Developers Pvt. Ltd. All Rights Reserved.
             </p>
 
             <div className="flex items-center gap-6 text-sm text-[#f5e6c5]/80">

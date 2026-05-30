@@ -48,7 +48,7 @@ function CSR() {
 
               {/* Description */}
               <p className="text-[#5e4b42] text-lg leading-8 mt-8">
-                At Rajvita Vistar Developers, our vision of development extends
+                At Raajvita Vista Developers, our vision of development extends
                 beyond real estate. We proudly support initiatives focused on
                 education, public libraries, and rural infrastructure through
                 the Rajendra Kavita Welfare Foundation.

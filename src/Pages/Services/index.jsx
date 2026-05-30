@@ -62,7 +62,7 @@ function Services() {
           </h1>
 
           <p className="text-gray-300 text-lg max-w-3xl mx-auto mt-8 leading-relaxed">
-            Rajvita Vistar Developers delivers legally secure,
+            Raajvita Vista Developers delivers legally secure,
             transparent, and professionally managed real estate
             solutions with a commitment to quality and compliance.
           </p>

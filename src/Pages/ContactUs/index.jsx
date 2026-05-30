@@ -19,7 +19,7 @@ const ContactUs = () => {
           </p>
 
           <h1 className="text-5xl md:text-6xl font-bold mb-6">
-            Contact Rajvita Vistar Developers
+            Contact Raajvita Vista Developers
           </h1>
 
           <p className="text-lg text-gray-300 max-w-3xl mx-auto leading-relaxed">
@@ -83,7 +83,7 @@ const ContactUs = () => {
                 <div>
                   <h3 className="text-xl font-semibold mb-2">Office Address</h3>
                   <p className="text-gray-600">
-                    Rajvita Vistar Developers Pvt. Ltd.
+                    Raajvita Vista Developers Pvt. Ltd.
                     <br />
                     Noida, Uttar Pradesh, India
                   </p>

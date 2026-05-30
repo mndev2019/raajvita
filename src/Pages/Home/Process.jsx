@@ -63,7 +63,7 @@ function Process() {
             </h2>
 
             <p className="text-[#5e4b42] text-lg leading-8 mt-6">
-              At Rajvita Vistar Developers, every project follows a disciplined,
+              At Raajvita Vista Developers, every project follows a disciplined,
               transparent, and legally secure workflow designed to deliver
               complete confidence and long-term value.
             </p>

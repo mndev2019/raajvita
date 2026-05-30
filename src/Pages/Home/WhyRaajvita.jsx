@@ -52,7 +52,7 @@ function WhyRaajvita() {
             </h2>
 
             <p className="text-[#5e4b42] text-lg leading-8 mt-6">
-              Rajvita Vistar Developers was founded to eliminate uncertainty,
+              Raajvita Vista Developers was founded to eliminate uncertainty,
               hidden risks, and lack of transparency in the real estate sector
               through disciplined execution and legally secure development.
             </p>
@@ -110,7 +110,7 @@ function WhyRaajvita() {
             </h3>
 
             <p className="text-[#5e4b42] text-lg leading-8 mt-6 max-w-4xl mx-auto">
-              At Rajvita Vistar Developers, every project reflects our
+              At Raajvita Vista Developers, every project reflects our
               commitment to military-grade discipline, transparent business
               ethics, legal compliance, and long-term value creation for our
               clients and communities.

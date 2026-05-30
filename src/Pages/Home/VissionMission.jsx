@@ -59,7 +59,7 @@ function VisionMission() {
             </h2>
 
             <p className="text-[#f5e6c5] text-lg leading-8 mt-6">
-              Rajvita Vistar Developers is driven by a mission to transform
+              Raajvita Vista Developers is driven by a mission to transform
               real estate through ethical leadership, legally secure development,
               and military-grade operational excellence.
             </p>

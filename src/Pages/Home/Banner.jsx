@@ -34,7 +34,7 @@ function Banner() {
 
             {/* Description */}
             <p className="text-[#f5e6c5] text-lg leading-8 mt-8 max-w-2xl">
-              Rajvita Vistar Developers Private Limited delivers premium
+              Raajvita Vista Developers Private Limited delivers premium
               land and property developments with military-grade discipline,
               complete legal transparency, and unmatched execution standards.
             </p>

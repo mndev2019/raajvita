@@ -70,7 +70,7 @@ function About() {
               {/* Paragraph */}
               <p className="text-[#5e4b42] text-lg leading-8 mt-8">
                 Rajendra Singh Chaudhary, Founder & Managing Director of
-                Rajvita Vistar Developers Pvt. Ltd., is a retired officer of
+                Raajvita Vista Developers Pvt. Ltd., is a retired officer of
                 the Indian Air Force who brings decades of disciplined leadership,
                 operational excellence, and strategic execution into the real
                 estate sector.
@@ -78,7 +78,7 @@ function About() {
 
               <p className="text-[#5e4b42] text-lg leading-8 mt-6">
                 Driven by the principles of honesty, precision, and national
-                service, he established Rajvita Vistar Developers with a vision
+                service, he established Raajvita Vista Developers with a vision
                 to eliminate uncertainty and build a real estate ecosystem rooted
                 in transparency, legal compliance, and absolute client trust.
               </p>

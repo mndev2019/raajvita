@@ -36,7 +36,7 @@ const AboutUs = () => {
             </h1>
 
             <p className="text-gray-300 text-lg leading-relaxed">
-              Rajvita Vistar Developers Private Limited is founded on the
+              Raajvita Vista Developers Private Limited is founded on the
               timeless principles of military discipline, honesty, and absolute
               transparency in real estate development.
             </p>
