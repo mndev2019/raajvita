@@ -1,5 +1,5 @@
 
-import directorImg from "../../assets/Images/logo.jpeg";
+import directorImg from "../../assets/Images/director.jpeg";
 
 function About() {
   return (
