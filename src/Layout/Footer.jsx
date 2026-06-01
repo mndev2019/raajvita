@@ -173,10 +173,11 @@ function Footer() {
                     <FaMapMarkerAlt />
                   </div>
 
-                  <p className="text-[#f5e6c5] leading-7">
-                    Your Office Address Here,
-                    Uttar Pradesh, India
-                  </p>
+                 <p className="text-[#f5e6c5] leading-7">
+  Office No. O-493, 4th Floor, Gaur City Center,
+  Sector 4, Gautam Buddha Nagar,
+  Uttar Pradesh - 201318, India
+</p>
                 </div>
 
                 <div className="flex items-center gap-4">
@@ -195,9 +196,8 @@ function Footer() {
                   <div className="w-11 h-11 rounded-full bg-[#ffffff10] flex items-center justify-center text-[#c89b3c] shrink-0">
                     <FaEnvelope />
                   </div>
-
                   <p className="text-[#f5e6c5]">
-                    info@rajvitavistar.com
+                    raajvitavista@gmail.com
                   </p>
                 </div>
               </div>
