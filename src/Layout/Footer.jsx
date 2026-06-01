@@ -1,8 +1,8 @@
 
 import {
-  FaFacebookF,
-  FaInstagram,
-  FaLinkedinIn,
+  // FaFacebookF,
+  // FaInstagram,
+  // FaLinkedinIn,
   FaMapMarkerAlt,
   FaPhoneAlt,
   FaEnvelope,
@@ -61,7 +61,7 @@ function Footer() {
               </p>
 
               {/* Social Icons */}
-              <div className="flex items-center gap-4 mt-8">
+              {/* <div className="flex items-center gap-4 mt-8">
 
                 <a
                   href="/"
@@ -83,7 +83,7 @@ function Footer() {
                 >
                   <FaLinkedinIn />
                 </a>
-              </div>
+              </div> */}
             </div>
 
             {/* Quick Links */}
@@ -196,9 +196,12 @@ function Footer() {
                   <div className="w-11 h-11 rounded-full bg-[#ffffff10] flex items-center justify-center text-[#c89b3c] shrink-0">
                     <FaEnvelope />
                   </div>
-                  <p className="text-[#f5e6c5]">
+                  <a
+                    href="mailto:raajvitavista@gmail.com"
+                    className="text-[#f5e6c5] hover:text-[#c89b3c] transition-colors duration-300"
+                  >
                     raajvitavista@gmail.com
-                  </p>
+                  </a>
                 </div>
               </div>
             </div>

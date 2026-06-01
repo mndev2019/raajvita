@@ -68,9 +68,12 @@ const ContactUs = () => {
 
                 <div>
                   <h3 className="text-xl font-semibold mb-2">Email Address</h3>
-                  <p className="text-gray-600">
+                  <a
+                    href="mailto:raajvitavista@gmail.com"
+                    className="text-gray-600  transition-colors duration-300"
+                  >
                     raajvitavista@gmail.com
-                  </p>
+                  </a>
                 </div>
               </div>
 
@@ -83,7 +86,7 @@ const ContactUs = () => {
                 <div>
                   <h3 className="text-xl font-semibold mb-2">Office Address</h3>
                   <p className="text-gray-600">
-                     Office No. O-493, 4th Floor, Gaur City Center,
+                    Office No. O-493, 4th Floor, Gaur City Center,
                     Sector 4, Gautam Buddha Nagar,
                     Uttar Pradesh - 201318, India
                   </p>
