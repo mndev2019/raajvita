@@ -23,7 +23,7 @@ function CSR() {
 
   return (
     <>
-      <section className="relative py-24 bg-[#faf7f2] overflow-hidden">
+      <section className="relative lg:py-24 py-15 bg-[#faf7f2] overflow-hidden">
 
         {/* Soft Background */}
         <div className="absolute top-0 right-0 w-96 h-96 bg-[#d4a63f]/10 blur-3xl rounded-full"></div>
@@ -42,19 +42,19 @@ function CSR() {
               </span>
 
               {/* Main Heading */}
-              <h2 className="text-4xl lg:text-5xl font-semibold text-[#3c0d12] leading-tight mt-5">
+              <h2 className="text-3xl lg:text-5xl font-semibold text-[#3c0d12] leading-tight mt-5">
                 Building Communities, Empowering Futures
               </h2>
 
               {/* Description */}
-              <p className="text-[#5e4b42] text-lg leading-8 mt-8">
+              <p className="text-[#5e4b42] md:text-lg text-md leading-8 mt-8">
                 At Raajvita Vista Developers, our vision of development extends
                 beyond real estate. We proudly support initiatives focused on
                 education, public libraries, and rural infrastructure through
                 the Rajendra Kavita Welfare Foundation.
               </p>
 
-              <p className="text-[#5e4b42] text-lg leading-8 mt-6">
+              <p className="text-[#5e4b42] md:text-lg text-md leading-8 mt-6">
                 Every partnership with Raajvita contributes towards creating
                 brighter opportunities and sustainable growth for rural and
                 semi-urban communities across India.
@@ -93,7 +93,7 @@ function CSR() {
 
               {/* Main Image */}
               <div className="relative z-10 rounded-[40px] overflow-hidden border border-[#ecd9b0] shadow-[0_20px_60px_rgba(0,0,0,0.08)]">
-                
+
                 <img
                   src={about2}
                   alt="CSR"
@@ -102,39 +102,40 @@ function CSR() {
               </div>
 
               {/* Floating Stats Card */}
-              <div className="absolute -bottom-10 left-1/2 -translate-x-1/2 bg-white border border-[#ecd9b0] rounded-[30px] px-10 py-8 shadow-2xl z-20 w-[90%]">
-                
-                <div className="grid grid-cols-3 gap-6 text-center">
+              <div className="absolute -bottom-16 md:-bottom-10 left-1/2 -translate-x-1/2 bg-white border border-[#ecd9b0] rounded-[20px] md:rounded-[30px] px-4 md:px-10 py-5 md:py-8 shadow-2xl z-20 w-[95%] md:w-[90%]">
+
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-5 md:gap-6 text-center">
 
                   <div>
-                    <h3 className="text-3xl font-bold text-[#c89b3c]">
+                    <h3 className="text-2xl md:text-3xl font-bold text-[#c89b3c]">
                       2020
                     </h3>
 
-                    <p className="text-[#5e4b42] mt-2 text-sm">
+                    <p className="text-[#5e4b42] mt-2 text-xs md:text-sm">
                       Foundation Started
                     </p>
                   </div>
 
                   <div>
-                    <h3 className="text-3xl font-bold text-[#c89b3c]">
+                    <h3 className="text-2xl md:text-3xl font-bold text-[#c89b3c]">
                       Rural
                     </h3>
 
-                    <p className="text-[#5e4b42] mt-2 text-sm">
+                    <p className="text-[#5e4b42] mt-2 text-xs md:text-sm">
                       Community Focus
                     </p>
                   </div>
 
                   <div>
-                    <h3 className="text-3xl font-bold text-[#c89b3c]">
+                    <h3 className="text-2xl md:text-3xl font-bold text-[#c89b3c]">
                       Future
                     </h3>
 
-                    <p className="text-[#5e4b42] mt-2 text-sm">
+                    <p className="text-[#5e4b42] mt-2 text-xs md:text-sm">
                       Empowerment
                     </p>
                   </div>
+
                 </div>
               </div>
 

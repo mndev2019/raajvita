@@ -56,12 +56,12 @@ function Services() {
             Our Services
           </p>
 
-          <h1 className="text-4xl md:text-6xl font-bold leading-tight">
+          <h1 className="text-3xl md:text-6xl font-bold leading-tight">
             Real Estate Solutions Built On
             <span className="text-[#c89b3c]"> Trust & Discipline</span>
           </h1>
 
-          <p className="text-gray-300 text-lg max-w-3xl mx-auto mt-8 leading-relaxed">
+          <p className="text-gray-300 md:text-lg text-md max-w-3xl mx-auto mt-8 leading-relaxed">
             Raajvita Vista Developers delivers legally secure,
             transparent, and professionally managed real estate
             solutions with a commitment to quality and compliance.
@@ -70,7 +70,7 @@ function Services() {
       </section>
 
       {/* Services Grid */}
-      <section className="py-24 px-6 md:px-16">
+      <section className="lg:py-24 py-10 px-6 md:px-16">
 
         <div className="max-w-7xl mx-auto">
 
@@ -80,7 +80,7 @@ function Services() {
               What We Offer
             </p>
 
-            <h2 className="text-4xl md:text-5xl font-bold text-[#3c0d12]">
+            <h2 className="text-3xl md:text-5xl font-bold text-[#3c0d12]">
               Comprehensive Development Services
             </h2>
           </div>
@@ -92,15 +92,15 @@ function Services() {
                 key={index}
                 className="group bg-white rounded-[30px] p-8 border border-[#c89b3c]/20 shadow-lg hover:-translate-y-3 hover:shadow-2xl transition-all duration-500"
               >
-                <div className="w-20 h-20 rounded-2xl bg-[#c89b3c]/10 flex items-center justify-center text-[#c89b3c] text-4xl mb-6 group-hover:scale-110 transition-all duration-500">
+                <div className="md:w-20 w-15 md:h-20 h-15 rounded-2xl bg-[#c89b3c]/10 flex items-center justify-center text-[#c89b3c] text-4xl mb-6 group-hover:scale-110 transition-all duration-500">
                   {service.icon}
                 </div>
 
-                <h3 className="text-2xl font-semibold text-[#3c0d12] mb-4">
+                <h3 className="md:text-2xl text-xl font-semibold text-[#3c0d12] mb-4">
                   {service.title}
                 </h3>
 
-                <p className="text-gray-600 leading-relaxed">
+                <p className="text-gray-600 leading-relaxed md:text-md text-sm ">
                   {service.desc}
                 </p>
               </div>
@@ -110,17 +110,17 @@ function Services() {
       </section>
 
       {/* Why Choose Our Services */}
-      <section className="py-24 px-6 md:px-16 bg-white">
+      <section className="lg:py-24 py-15 px-6 md:px-16 bg-white">
 
         <div className="max-w-7xl mx-auto">
 
-          <div className="text-center mb-16">
+          <div className="text-center md:mb-16 mb-10">
 
             <p className="text-[#c89b3c] uppercase tracking-[5px] font-semibold mb-4">
               Why Choose Us
             </p>
 
-            <h2 className="text-4xl md:text-5xl font-bold text-[#3c0d12]">
+            <h2 className="text-3xl md:text-5xl font-bold text-[#3c0d12]">
               Service Excellence You Can Trust
             </h2>
           </div>

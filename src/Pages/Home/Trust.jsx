@@ -32,7 +32,7 @@ function Trust() {
 
   return (
     <>
-      <section className="relative py-24 bg-[#faf7f2] overflow-hidden">
+      <section className="relative lg:py-24 py-10 bg-[#faf7f2] overflow-hidden">
         
         {/* Background Blur */}
         <div className="absolute top-10 left-10 w-72 h-72 bg-[#d4a63f]/10 blur-3xl rounded-full"></div>
@@ -47,11 +47,11 @@ function Trust() {
               Why Choose Us
             </span>
 
-            <h2 className="text-4xl lg:text-5xl font-semibold text-[#3c0d12] mt-4 leading-tight">
+            <h2 className="text-3xl lg:text-5xl font-semibold text-[#3c0d12] mt-4 leading-tight">
               Why Investors Trust Raajvita Vista Developers
             </h2>
 
-            <p className="text-[#5e4b42] text-lg leading-8 mt-6">
+            <p className="text-[#5e4b42] md:text-lg text-md leading-8 mt-6">
               Raajvita Vista Developers combines military-grade discipline,
               complete legal transparency, and RERA-certified development
               practices to deliver secure and future-ready real estate
@@ -77,12 +77,12 @@ function Trust() {
                 </div>
 
                 {/* Title */}
-                <h3 className="relative z-10 text-2xl font-semibold text-[#3c0d12] mb-4 leading-snug">
+                <h3 className="relative z-10 md:text-2xl text-xl font-semibold text-[#3c0d12] mb-4 leading-snug">
                   {item.title}
                 </h3>
 
                 {/* Desc */}
-                <p className="relative z-10 text-[#5e4b42] leading-7">
+                <p className="relative z-10 text-[#5e4b42] leading-7 md:text-md text-sm">
                   {item.desc}
                 </p>
 

@@ -28,14 +28,14 @@ const AboutUs = () => {
               About Raajvita
             </p>
 
-            <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-6">
+            <h1 className="text-3xl md:text-6xl font-bold leading-tight mb-6">
               Setting a New Benchmark of{" "}
               <span className="text-[#c89b3c]">
                 Trust, Discipline & Transparency
               </span>
             </h1>
 
-            <p className="text-gray-300 text-lg leading-relaxed">
+            <p className="text-gray-300 md:text-lg text-md leading-relaxed">
               Raajvita Vista Developers Private Limited is founded on the
               timeless principles of military discipline, honesty, and absolute
               transparency in real estate development.
@@ -90,16 +90,16 @@ const AboutUs = () => {
               Who We Are
             </p>
 
-            <h2 className="text-4xl md:text-5xl font-bold leading-tight mb-8">
+            <h2 className="text-3xl md:text-5xl font-bold leading-tight mb-8">
               Premium Real Estate Development With Complete Transparency
             </h2>
 
-            <p className="text-gray-700 leading-relaxed mb-6 text-lg">
+            <p className="text-gray-700 leading-relaxed mb-6 md:text-lg text-md">
               We specialize in premium land and property development backed by
               discipline, legal compliance, and ethical business values.
             </p>
 
-            <p className="text-gray-700 leading-relaxed mb-10 text-lg">
+            <p className="text-gray-700 leading-relaxed mb-10 md:text-lg text-md">
               Every Raajvita project is developed with strategic planning,
               military-grade execution, and transparent documentation to ensure
               trust and security for every client.
@@ -148,7 +148,7 @@ const AboutUs = () => {
             Vision & Mission
           </p>
 
-          <h2 className="text-4xl md:text-5xl font-bold mb-16">
+          <h2 className="text-3xl md:text-5xl font-bold lg:mb-16 mb-10">
             Building Trust Through Excellence
           </h2>
 

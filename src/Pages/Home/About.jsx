@@ -140,7 +140,7 @@ function About() {
   return (
     <>
       {/* Vision, Mission & Core Values */}
-      <section className="relative py-24 bg-white overflow-hidden">
+      <section className="relative lg:py-24 py-10 bg-white overflow-hidden">
         <div className="absolute top-0 left-0 w-80 h-80 bg-[#d4a63f]/10 blur-3xl rounded-full"></div>
         <div className="absolute bottom-0 right-0 w-96 h-96 bg-[#8b1e2d]/10 blur-3xl rounded-full"></div>
 
@@ -150,18 +150,18 @@ function About() {
               Our Foundation
             </span>
 
-            <h2 className="text-4xl lg:text-5xl font-semibold text-[#3c0d12] mt-5">
+            <h2 className="text-3xl lg:text-5xl font-semibold text-[#3c0d12] mt-5">
               Vision, Mission & Core Values
             </h2>
           </div>
 
           {/* Vision */}
-          <div className="mt-16 bg-[#faf7f2] border border-[#ecd9b0] rounded-[32px] p-10">
-            <h3 className="text-3xl font-semibold text-[#3c0d12]">
+          <div className="md:mt-16 mt-10 bg-[#faf7f2] border border-[#ecd9b0] rounded-[32px] md:p-10 p-8">
+            <h3 className="md:text-3xl text-2xl font-semibold text-[#3c0d12]">
               Our Vision
             </h3>
 
-            <p className="text-[#5e4b42] text-lg leading-8 mt-5">
+            <p className="text-[#5e4b42] md:text-lg text-md leading-8 mt-5">
               To become India’s most trusted, compliant, and disciplined real
               estate development firm, recognized for transforming land into
               thriving, high-value assets while maintaining uncompromising
@@ -170,8 +170,8 @@ function About() {
           </div>
 
           {/* Mission */}
-          <div className="mt-12">
-            <h3 className="text-3xl font-semibold text-[#3c0d12] mb-8">
+          <div className="md:mt-12 mt-10">
+            <h3 className="md:text-3xl text-2xl font-semibold text-[#3c0d12] mb-8">
               Our Mission
             </h3>
 
@@ -220,8 +220,8 @@ function About() {
           </div>
 
           {/* Core Values */}
-          <div className="mt-16">
-            <h3 className="text-3xl font-semibold text-[#3c0d12] mb-8">
+          <div className="md:mt-16 mt-10">
+            <h3 className="md:text-3xl text-2xl font-semibold text-[#3c0d12] mb-8">
               Our Core Values
             </h3>
 
@@ -274,33 +274,58 @@ function About() {
       <section className="relative py-10 bg-[#faf7f2] overflow-hidden">
         <div className="container mx-auto px-6 lg:px-16">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
-            {/* Image */}
-            <div className="relative flex justify-center">
-              <div className="relative rounded-[40px] overflow-hidden border border-[#ecd9b0] shadow-[0_20px_60px_rgba(0,0,0,0.08)] bg-white p-4">
-                <img
-                  src={directorImg}
-                  alt="Rajendra Singh Chaudhary"
-                  className="w-full max-w-[500px] h-[650px] object-cover rounded-[30px]"
-                />
 
-                <div className="absolute bottom-8 left-1/2 -translate-x-1/2 bg-white/95 backdrop-blur-xl border border-[#ecd9b0] rounded-2xl px-8 py-2 shadow-2xl w-[85%]">
-                  <h3 className="text-[#3c0d12] text-2xl font-semibold text-center">
-                    Rajendra Singh Chaudhary
-                  </h3>
+            {/* Left Side Image */}
+            <div>
+              <div className="relative flex justify-center">
+                <div className="relative rounded-[40px] overflow-hidden border border-[#ecd9b0] shadow-[0_20px_60px_rgba(0,0,0,0.08)] bg-white p-4">
+                  <img
+                    src={directorImg}
+                    alt="Rajendra Singh Chaudhary"
+                    className="w-full max-w-[500px] h-[450px] md:h-[650px] object-cover rounded-[30px]"
+                  />
 
-                  <p className="text-[#c89b3c] text-center mt-2 font-medium">
-                    Founder & Managing Director
-                  </p>
+                  {/* Desktop Floating Card */}
+                  <div className="hidden md:block absolute bottom-8 left-1/2 -translate-x-1/2 bg-white/95 backdrop-blur-xl border border-[#ecd9b0] rounded-2xl px-8 py-4 shadow-2xl w-[85%]">
+                    <h3 className="text-[#3c0d12] text-2xl font-semibold text-center">
+                      Rajendra Singh Chaudhary
+                    </h3>
 
-                  <div className="flex justify-center gap-3 mt-4 flex-wrap">
-                    <span className="bg-[#faf7f2] border border-[#ecd9b0] px-4 py-2 rounded-full text-sm text-[#5e4b42]">
-                      Indian Air Force Veteran
-                    </span>
+                    <p className="text-[#c89b3c] text-center mt-2 font-medium">
+                      Founder & Managing Director
+                    </p>
 
-                    <span className="bg-[#faf7f2] border border-[#ecd9b0] px-4 py-2 rounded-full text-sm text-[#5e4b42]">
-                      RERA Certified
-                    </span>
+                    <div className="flex justify-center gap-3 mt-4 flex-wrap">
+                      <span className="bg-[#faf7f2] border border-[#ecd9b0] px-4 py-2 rounded-full text-sm text-[#5e4b42]">
+                        Indian Air Force Veteran
+                      </span>
+
+                      <span className="bg-[#faf7f2] border border-[#ecd9b0] px-4 py-2 rounded-full text-sm text-[#5e4b42]">
+                        RERA Certified
+                      </span>
+                    </div>
                   </div>
+                </div>
+              </div>
+
+              {/* Mobile Card */}
+              <div className="md:hidden mt-5 bg-white border border-[#ecd9b0] rounded-2xl p-5 shadow-lg">
+                <h3 className="text-[#3c0d12] text-xl font-semibold text-center">
+                  Rajendra Singh Chaudhary
+                </h3>
+
+                <p className="text-[#c89b3c] text-center mt-2 text-sm font-medium">
+                  Founder & Managing Director
+                </p>
+
+                <div className="flex justify-center gap-2 mt-4 flex-wrap">
+                  <span className="bg-[#faf7f2] border border-[#ecd9b0] px-3 py-1 rounded-full text-xs text-[#5e4b42]">
+                    Indian Air Force Veteran
+                  </span>
+
+                  <span className="bg-[#faf7f2] border border-[#ecd9b0] px-3 py-1 rounded-full text-xs text-[#5e4b42]">
+                    RERA Certified
+                  </span>
                 </div>
               </div>
             </div>
@@ -311,12 +336,12 @@ function About() {
                 Leadership & Vision
               </span>
 
-              <h2 className="text-4xl lg:text-5xl font-semibold text-[#3c0d12] leading-tight mt-5">
+              <h2 className="text-3xl lg:text-5xl font-semibold text-[#3c0d12] leading-tight mt-5">
                 A Legacy of Honor, Discipline & Visionary Leadership
               </h2>
 
-              <div className="mt-12 bg-white border-l-4 border-[#c89b3c] rounded-r-3xl p-8 shadow-sm">
-                <p className="text-[#3c0d12] text-lg italic leading-8">
+              <div className="md:mt-12 mt-10 bg-white border-l-4 border-[#c89b3c] rounded-r-3xl p-8 shadow-sm">
+                <p className="text-[#3c0d12] md:text-lg text-md italic leading-8">
                   “We are here to develop land, but more importantly,
                   we are here to earn and protect your trust.”
                 </p>
@@ -373,8 +398,8 @@ function About() {
                 </div>
               </div>
 
-              <div className="mt-12 bg-white border-l-4 border-[#c89b3c] rounded-r-3xl p-8 shadow-sm">
-                <p className="text-[#3c0d12] text-lg italic leading-8">
+              <div className="md:mt-12 mt-10 bg-white border-l-4 border-[#c89b3c] rounded-r-3xl p-8 shadow-sm">
+                <p className="text-[#3c0d12] md:text-lg text-md italic leading-8">
                   “In the Air Force, commitment is absolute and execution must
                   be flawless. Through Raajvita Vista Developers, our promise
                   is military-grade precision, complete transparency, legally
@@ -393,13 +418,13 @@ function About() {
       </section>
 
       {/* Kavita Chaudhary */}
-      <section className="py-24 bg-white">
+      <section className="lg:py-24 py-10 bg-white">
         <div className="container mx-auto px-6 lg:px-16">
           <span className="text-[#c89b3c] uppercase tracking-[4px] text-sm font-medium">
             Financial Leadership
           </span>
 
-          <h2 className="text-4xl lg:text-5xl font-semibold text-[#3c0d12] mt-5">
+          <h2 className="text-3xl lg:text-5xl font-semibold text-[#3c0d12] mt-5">
             Kavita Chaudhary
           </h2>
 
@@ -408,7 +433,7 @@ function About() {
           </p>
 
           <div className="max-w-5xl">
-            <p className="text-[#5e4b42] text-lg leading-8 mt-8">
+            <p className="text-[#5e4b42] md:text-lg text-md leading-8 mt-8">
               Kavita Chaudhary serves as Director & Co-Founder of Raajvita
               Vista Developers Pvt. Ltd. and Co-Founder of the Rajendra
               Kavita Welfare Foundation. A Commerce graduate from Delhi
@@ -417,7 +442,7 @@ function About() {
               administration.
             </p>
 
-            <p className="text-[#5e4b42] text-lg leading-8 mt-6">
+            <p className="text-[#5e4b42] md:text-lg text-md leading-8 mt-6">
               Her leadership ensures financial stability, strong internal
               controls, regulatory compliance, and sustainable growth across
               all business operations while maintaining complete transparency

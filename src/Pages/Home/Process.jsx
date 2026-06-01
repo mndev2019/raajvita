@@ -43,7 +43,7 @@ function Process() {
 
   return (
     <>
-      <section className="relative py-24 bg-white overflow-hidden">
+      <section className="relative lg:py-24 py-15 bg-white overflow-hidden">
 
         {/* Background Blur */}
         <div className="absolute top-0 left-0 w-80 h-80 bg-[#d4a63f]/10 blur-3xl rounded-full"></div>
@@ -58,11 +58,11 @@ function Process() {
               Our Process
             </span>
 
-            <h2 className="text-4xl lg:text-5xl font-semibold text-[#3c0d12] mt-5 leading-tight">
+            <h2 className="text-3xl lg:text-5xl font-semibold text-[#3c0d12] mt-5 leading-tight">
               Precision Driven Development Process
             </h2>
 
-            <p className="text-[#5e4b42] text-lg leading-8 mt-6">
+            <p className="text-[#5e4b42] md:text-lg text-md leading-8 mt-6">
               At Raajvita Vista Developers, every project follows a disciplined,
               transparent, and legally secure workflow designed to deliver
               complete confidence and long-term value.

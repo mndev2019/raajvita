@@ -18,11 +18,11 @@ const ContactUs = () => {
             Get In Touch
           </p>
 
-          <h1 className="text-5xl md:text-6xl font-bold mb-6">
+          <h1 className="text-3xl md:text-6xl font-bold mb-6">
             Contact Raajvita Vista Developers
           </h1>
 
-          <p className="text-lg text-gray-300 max-w-3xl mx-auto leading-relaxed">
+          <p className="md:text-lg text-md text-gray-300 max-w-3xl mx-auto leading-relaxed">
             We are committed to delivering transparent communication, trusted
             guidance, and premium real estate solutions. Connect with us today.
           </p>
@@ -30,7 +30,7 @@ const ContactUs = () => {
       </section>
 
       {/* CONTACT SECTION */}
-      <section className="py-24 px-6 md:px-16">
+      <section className="lg:py-24 py-10 px-6 md:px-16">
         <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-14 items-start">
           {/* LEFT SIDE */}
           <div>
@@ -38,11 +38,11 @@ const ContactUs = () => {
               Contact Information
             </p>
 
-            <h2 className="text-4xl md:text-5xl font-bold leading-tight mb-8">
+            <h2 className="text-3xl md:text-5xl font-bold leading-tight mb-8">
               Let’s Build Something Great Together
             </h2>
 
-            <p className="text-gray-700 leading-relaxed mb-10 text-lg">
+            <p className="text-gray-700 leading-relaxed mb-10 md:text-lg text-md">
               Reach out to our team for property inquiries, investment
               opportunities, partnerships, or project-related information.
             </p>
@@ -69,7 +69,7 @@ const ContactUs = () => {
                 <div>
                   <h3 className="text-xl font-semibold mb-2">Email Address</h3>
                   <p className="text-gray-600">
-                    xyz@example.com
+                    raajvitavista@gmail.com
                   </p>
                 </div>
               </div>
@@ -83,9 +83,9 @@ const ContactUs = () => {
                 <div>
                   <h3 className="text-xl font-semibold mb-2">Office Address</h3>
                   <p className="text-gray-600">
-                    Raajvita Vista Developers Pvt. Ltd.
-                    <br />
-                    Noida, Uttar Pradesh, India
+                     Office No. O-493, 4th Floor, Gaur City Center,
+                    Sector 4, Gautam Buddha Nagar,
+                    Uttar Pradesh - 201318, India
                   </p>
                 </div>
               </div>
@@ -93,12 +93,12 @@ const ContactUs = () => {
           </div>
 
           {/* RIGHT SIDE FORM */}
-          <div className="bg-white rounded-[35px] shadow-2xl border border-[#d4a537]/20 p-8 md:p-10">
+          <div className="bg-white rounded-[35px] shadow-2xl border border-[#d4a537]/20 p-7 md:p-10">
             <p className="uppercase tracking-[5px] text-[#d4a537] font-semibold mb-3">
               Enquiry Form
             </p>
 
-            <h2 className="text-3xl font-bold mb-8">
+            <h2 className="md:text-3xl text-2xl font-bold mb-8">
               Send Us A Message
             </h2>
 
@@ -110,7 +110,7 @@ const ContactUs = () => {
                 <input
                   type="text"
                   placeholder="Enter your name"
-                  className="w-full border border-gray-300 rounded-2xl px-5 py-4 outline-none focus:border-[#d4a537] transition-all"
+                  className="w-full border border-gray-300 rounded-2xl px-5 md:py-4 py-3 outline-none focus:border-[#d4a537] transition-all"
                 />
               </div>
 
@@ -121,7 +121,7 @@ const ContactUs = () => {
                 <input
                   type="email"
                   placeholder="Enter your email"
-                  className="w-full border border-gray-300 rounded-2xl px-5 py-4 outline-none focus:border-[#d4a537] transition-all"
+                  className="w-full border border-gray-300 rounded-2xl px-5 md:py-4 py-3 outline-none focus:border-[#d4a537] transition-all"
                 />
               </div>
 
@@ -132,7 +132,7 @@ const ContactUs = () => {
                 <input
                   type="text"
                   placeholder="Enter your phone number"
-                  className="w-full border border-gray-300 rounded-2xl px-5 py-4 outline-none focus:border-[#d4a537] transition-all"
+                  className="w-full border border-gray-300 rounded-2xl px-5 md:py-4 py-3 outline-none focus:border-[#d4a537] transition-all"
                 />
               </div>
 
@@ -143,7 +143,7 @@ const ContactUs = () => {
                 <textarea
                   rows="5"
                   placeholder="Write your enquiry..."
-                  className="w-full border border-gray-300 rounded-2xl px-5 py-4 outline-none focus:border-[#d4a537] transition-all resize-none"
+                  className="w-full border border-gray-300 rounded-2xl px-5 md:py-4 py-3 outline-none focus:border-[#d4a537] transition-all resize-none"
                 ></textarea>
               </div>
 

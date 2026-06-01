@@ -39,7 +39,7 @@ function VisionMission() {
 
   return (
     <>
-      <section className="relative py-24 bg-[#3c0d12] overflow-hidden">
+      <section className="relative lg:py-24 py-15 bg-[#3c0d12] overflow-hidden">
         
         {/* Background Effects */}
         <div className="absolute top-0 left-0 w-96 h-96 bg-[#d4a63f]/10 blur-3xl rounded-full"></div>
@@ -48,17 +48,17 @@ function VisionMission() {
         <div className="container mx-auto px-6 lg:px-16 relative z-10">
 
           {/* Top Heading */}
-          <div className="text-center max-w-4xl mx-auto mb-20">
+          <div className="text-center max-w-4xl mx-auto lg:mb-20 mb-10">
 
             <span className="text-[#f0c35a] uppercase tracking-[4px] text-sm font-medium">
               Vision • Mission • Values
             </span>
 
-            <h2 className="text-4xl lg:text-5xl font-semibold text-white mt-5 leading-tight">
+            <h2 className="text-3xl lg:text-5xl font-semibold text-white mt-5 leading-tight">
               Building the Future With Integrity, Discipline & Transparency
             </h2>
 
-            <p className="text-[#f5e6c5] text-lg leading-8 mt-6">
+            <p className="text-[#f5e6c5] md:text-lg text-md leading-8 mt-6">
               Raajvita Vista Developers is driven by a mission to transform
               real estate through ethical leadership, legally secure development,
               and military-grade operational excellence.
@@ -75,11 +75,11 @@ function VisionMission() {
                 <FaBullseye />
               </div>
 
-              <h3 className="text-3xl font-semibold text-white mb-6">
+              <h3 className="md:text-3xl text-2xl font-semibold text-white mb-6">
                 Our Vision
               </h3>
 
-              <p className="text-[#f5e6c5] leading-8 text-lg">
+              <p className="text-[#f5e6c5] leading-8 md:text-lg text-md">
                 To become India’s most trusted, compliant, and disciplined
                 real estate development firm recognized for transforming land
                 into high-value assets with zero compromise on ethics,
@@ -116,7 +116,7 @@ function VisionMission() {
             </div>
 
             {/* Core Values */}
-            <div className="bg-gradient-to-b from-[#d4a63f] to-[#b88a2f] rounded-[35px] p-8 shadow-2xl">
+            <div className="bg-gradient-to-b from-[#d4a63f] to-[#b88a2f] rounded-[35px] md:p-8 p-5 shadow-2xl">
               
               <span className="text-white uppercase tracking-[3px] text-sm">
                 The Pillars of Raajvita

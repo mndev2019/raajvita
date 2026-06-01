@@ -56,7 +56,7 @@ function ProjectDetails() {
       </section>
 
       {/* Overview */}
-      <section className="py-24 bg-[#faf7f2]">
+      <section className="lg:py-24 py-10 bg-[#faf7f2]">
         <div className="container mx-auto px-6 lg:px-16">
 
           <div className="grid lg:grid-cols-3 gap-8">
@@ -93,21 +93,21 @@ function ProjectDetails() {
           </div>
 
           {/* Description */}
-          <div className="mt-20">
+          <div className="md:mt-20 mt-10">
 
-            <h2 className="text-4xl font-bold text-[#3c0d12]">
+            <h2 className="md:text-4xl text-3xl font-bold text-[#3c0d12]">
               Project Overview
             </h2>
 
-            <p className="mt-6 text-gray-600 leading-8 text-lg">
+            <p className="mt-6 text-gray-600 leading-8 md:text-lg text-md">
               {project.description}
             </p>
           </div>
 
           {/* Features */}
-          <div className="mt-20">
+          <div className="md:mt-20 mt-10">
 
-            <h2 className="text-4xl font-bold text-[#3c0d12] mb-10">
+            <h2 className="md:text-4xl text-3xl font-bold text-[#3c0d12] mb-10">
               Key Features
             </h2>
 
@@ -128,9 +128,9 @@ function ProjectDetails() {
           </div>
 
           {/* Gallery */}
-          <div className="mt-20">
+          <div className="md:mt-20 mt-10">
 
-            <h2 className="text-4xl font-bold text-[#3c0d12] mb-10">
+            <h2 className="md:text-4xl text-3xl font-bold text-[#3c0d12] mb-10">
               Project Gallery
             </h2>
 

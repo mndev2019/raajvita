@@ -32,7 +32,7 @@ function WhyRaajvita() {
 
   return (
     <>
-      <section className="relative py-24 bg-[#fffdf9] overflow-hidden">
+      <section className="relative lg:py-24 py-15 bg-[#fffdf9] overflow-hidden">
 
         {/* Background Effects */}
         <div className="absolute top-0 right-0 w-96 h-96 bg-[#d4a63f]/10 blur-3xl rounded-full"></div>
@@ -47,11 +47,11 @@ function WhyRaajvita() {
               Why Raajvita
             </span>
 
-            <h2 className="text-4xl lg:text-5xl font-semibold text-[#3c0d12] mt-5 leading-tight">
+            <h2 className="text-3xl lg:text-5xl font-semibold text-[#3c0d12] mt-5 leading-tight">
               Redefining Trust & Transparency in Real Estate
             </h2>
 
-            <p className="text-[#5e4b42] text-lg leading-8 mt-6">
+            <p className="text-[#5e4b42] md:text-lg text-md leading-8 mt-6">
               Raajvita Vista Developers was founded to eliminate uncertainty,
               hidden risks, and lack of transparency in the real estate sector
               through disciplined execution and legally secure development.
@@ -105,11 +105,11 @@ function WhyRaajvita() {
           {/* Bottom Statement */}
           <div className="mt-20 bg-gradient-to-r from-[#fff7e8] via-[#fffaf3] to-[#fff7e8] border border-[#ecd9b0] rounded-[40px] p-10 text-center shadow-lg">
 
-            <h3 className="text-3xl lg:text-4xl font-semibold text-[#3c0d12] leading-tight">
+            <h3 className="text-2xl lg:text-4xl font-semibold text-[#3c0d12] leading-tight">
               More Than Development — A Commitment to Trust
             </h3>
 
-            <p className="text-[#5e4b42] text-lg leading-8 mt-6 max-w-4xl mx-auto">
+            <p className="text-[#5e4b42] md:text-lg text-md leading-8 mt-6 max-w-4xl mx-auto">
               At Raajvita Vista Developers, every project reflects our
               commitment to military-grade discipline, transparent business
               ethics, legal compliance, and long-term value creation for our

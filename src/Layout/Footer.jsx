@@ -30,12 +30,12 @@ function Footer() {
                 Let’s Connect
               </span>
 
-              <h2 className="text-3xl lg:text-5xl font-semibold text-[#3c0d12] leading-tight mt-4">
+              <h2 className="text-2xl lg:text-5xl font-semibold text-[#3c0d12] leading-tight mt-4">
                 Secure Your Future With Trusted Development
               </h2>
             </div>
 
-            <button onClick={() => navigate('contact-us')} className="bg-[#3c0d12] hover:bg-[#5a151d] text-white px-10 py-4 rounded-full text-lg font-medium transition-all duration-500 shadow-lg">
+            <button onClick={() => navigate('contact-us')} className="bg-[#3c0d12] hover:bg-[#5a151d] text-white px-10 md:py-4 py-2 rounded-full text-lg font-medium transition-all duration-500 shadow-lg">
               Contact Us
             </button>
           </div>
@@ -173,11 +173,11 @@ function Footer() {
                     <FaMapMarkerAlt />
                   </div>
 
-                 <p className="text-[#f5e6c5] leading-7">
-  Office No. O-493, 4th Floor, Gaur City Center,
-  Sector 4, Gautam Buddha Nagar,
-  Uttar Pradesh - 201318, India
-</p>
+                  <p className="text-[#f5e6c5] leading-7">
+                    Office No. O-493, 4th Floor, Gaur City Center,
+                    Sector 4, Gautam Buddha Nagar,
+                    Uttar Pradesh - 201318, India
+                  </p>
                 </div>
 
                 <div className="flex items-center gap-4">
