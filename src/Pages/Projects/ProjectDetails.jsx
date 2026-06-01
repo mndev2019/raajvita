@@ -4,7 +4,7 @@ function ProjectDetails() {
   const { slug } = useParams();
 
   const project = {
-    title: "Rajvita Greens",
+    title: "Raajvita Greens",
     location: "Kanpur, Uttar Pradesh",
     image:
       "https://images.unsplash.com/photo-1500382017468-9049fed747ef",
@@ -12,7 +12,7 @@ function ProjectDetails() {
     type: "Land Development",
     rera: "RERA123456",
     description:
-      "Rajvita Greens is a premium land development project focused on creating long-term value through disciplined planning, transparent documentation, and legally secure processes.",
+      "Raajvita Greens is a premium land development project focused on creating long-term value through disciplined planning, transparent documentation, and legally secure processes.",
     gallery: [
       "https://images.unsplash.com/photo-1500382017468-9049fed747ef",
       "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab",

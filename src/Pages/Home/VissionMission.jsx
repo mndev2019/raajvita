@@ -119,7 +119,7 @@ function VisionMission() {
             <div className="bg-gradient-to-b from-[#d4a63f] to-[#b88a2f] rounded-[35px] p-8 shadow-2xl">
               
               <span className="text-white uppercase tracking-[3px] text-sm">
-                The Pillars of Rajvita
+                The Pillars of Raajvita
               </span>
 
               <h3 className="text-3xl font-semibold text-[#3c0d12] mt-4">

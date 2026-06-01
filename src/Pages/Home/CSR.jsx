@@ -55,7 +55,7 @@ function CSR() {
               </p>
 
               <p className="text-[#5e4b42] text-lg leading-8 mt-6">
-                Every partnership with Rajvita contributes towards creating
+                Every partnership with Raajvita contributes towards creating
                 brighter opportunities and sustainable growth for rural and
                 semi-urban communities across India.
               </p>

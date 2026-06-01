@@ -25,7 +25,7 @@ const AboutUs = () => {
         <div className="relative z-10 max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <p className="uppercase tracking-[6px] text-[#c89b3c] text-sm mb-4">
-              About Rajvita
+              About Raajvita
             </p>
 
             <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-6">
@@ -50,7 +50,7 @@ const AboutUs = () => {
             <div className="rounded-[30px] overflow-hidden border border-[#c89b3c]/30 shadow-[0_20px_60px_rgba(0,0,0,0.4)]">
               <img
                 src={about1}
-                alt="About Rajvita"
+                alt="About Raajvita"
                 className="w-full h-[520px] object-cover"
               />
             </div>
@@ -100,7 +100,7 @@ const AboutUs = () => {
             </p>
 
             <p className="text-gray-700 leading-relaxed mb-10 text-lg">
-              Every Rajvita project is developed with strategic planning,
+              Every Raajvita project is developed with strategic planning,
               military-grade execution, and transparent documentation to ensure
               trust and security for every client.
             </p>
@@ -182,7 +182,7 @@ const AboutUs = () => {
 
               <p className="text-gray-300 leading-relaxed">
                 Integrity, compliance, social responsibility, and disciplined
-                execution define Rajvita.
+                execution define Raajvita.
               </p>
             </div>
           </div>

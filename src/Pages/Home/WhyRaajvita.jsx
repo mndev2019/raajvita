@@ -44,7 +44,7 @@ function WhyRaajvita() {
           <div className="text-center max-w-4xl mx-auto mb-20">
 
             <span className="text-[#c89b3c] uppercase tracking-[4px] text-sm font-medium">
-              Why Rajvita
+              Why Raajvita
             </span>
 
             <h2 className="text-4xl lg:text-5xl font-semibold text-[#3c0d12] mt-5 leading-tight">

@@ -6,8 +6,8 @@ function Projects() {
   const projects = [
     {
       id: 1,
-      slug: "rajvita-greens",
-      title: "Rajvita Greens",
+      slug: "raajvita-greens",
+      title: "Raajvita Greens",
       location: "Kanpur, Uttar Pradesh",
       image:pic,
       shortDescription:
@@ -15,8 +15,8 @@ function Projects() {
     },
     {
       id: 2,
-      slug: "rajvita-heights",
-      title: "Rajvita Heights",
+      slug: "raajvita-heights",
+      title: "Raajvita Heights",
       location: "Lucknow, Uttar Pradesh",
       image:pic2,
       shortDescription:
@@ -24,8 +24,8 @@ function Projects() {
     },
     {
       id: 3,
-      slug: "rajvita-residency",
-      title: "Rajvita Residency",
+      slug: "raajvita-residency",
+      title: "Raajvita Residency",
       location: "Noida, Uttar Pradesh",
       image:pic,
       shortDescription:

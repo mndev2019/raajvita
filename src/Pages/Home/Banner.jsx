@@ -89,7 +89,7 @@ function Banner() {
               
               <img
                 src={logo}
-                alt="Rajvita Logo"
+                alt="Raajvita Logo"
                 className="w-full max-w-[420px] object-contain"
               />
 
