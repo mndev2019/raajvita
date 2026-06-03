@@ -9,6 +9,7 @@ import ContactUs from './Pages/ContactUs'
 import Services from './Pages/Services'
 import Projects from './Pages/Projects'
 import ProjectDetails from './Pages/Projects/ProjectDetails'
+import { ToastContainer } from 'react-toastify'
 
 
 
@@ -41,6 +42,7 @@ function App() {
 
   return (
     <>
+     <ToastContainer position="top-right" autoClose={2000} />
       <RouterProvider router={ThemeRoute} />
 
     </>

@@ -1,12 +1,77 @@
 
+import axios from "axios";
+import { useState } from "react";
 import {
   FaPhoneAlt,
   FaEnvelope,
   FaMapMarkerAlt,
   FaPaperPlane,
 } from "react-icons/fa";
+import { toast } from "react-toastify";
+import { Base_Url } from "../../API/BaseUrl";
 
 const ContactUs = () => {
+  const [name, setname] = useState("");
+  const [email, setemail] = useState("");
+  const [mobile, setmobile] = useState("");
+  const [message, setmessage] = useState("");
+  const [loading, setLoading] = useState(false);
+
+
+
+  const handlesubmit = async (e) => {
+    e.preventDefault();
+
+    if (!name || !email || !mobile || !message) {
+      toast.error("Please fill all fields");
+      return;
+    }
+
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    const mobileRegex = /^[0-9]{10}$/;
+
+    if (!emailRegex.test(email)) {
+      toast.error("Please enter a valid email");
+      return;
+    }
+
+    if (!mobileRegex.test(mobile)) {
+      toast.error("Please enter a valid 10-digit mobile number");
+      return;
+    }
+
+    const requestdata = {
+      name,
+      email,
+      mobile,
+      message,
+    };
+
+    try {
+      setLoading(true);
+
+      const response = await axios.post(
+        `${Base_Url}/contact-enquiry`,
+        requestdata
+      );
+      console.log(response);
+
+      toast.success("Enquiry submitted successfully!");
+
+      setname("");
+      setemail("");
+      setmobile("");
+      setmessage("");
+    } catch (error) {
+      toast.error(
+        error.response?.data?.message ||
+        "Server error. Please try again later."
+      );
+    } finally {
+      setLoading(false);
+    }
+  };
+
   return (
     <div className="bg-[#f8f4ec] text-[#2d140f]">
       {/* HERO SECTION */}
@@ -105,12 +170,14 @@ const ContactUs = () => {
               Send Us A Message
             </h2>
 
-            <form className="space-y-6">
+            <form className="space-y-6" onSubmit={handlesubmit}>
               {/* NAME */}
               <div>
                 <label className="block mb-2 font-medium">Full Name</label>
 
                 <input
+                  value={name}
+                  onChange={(e) => setname(e.target.value)}
                   type="text"
                   placeholder="Enter your name"
                   className="w-full border border-gray-300 rounded-2xl px-5 md:py-4 py-3 outline-none focus:border-[#d4a537] transition-all"
@@ -122,6 +189,8 @@ const ContactUs = () => {
                 <label className="block mb-2 font-medium">Email Address</label>
 
                 <input
+                  value={email}
+                  onChange={(e) => setemail(e.target.value)}
                   type="email"
                   placeholder="Enter your email"
                   className="w-full border border-gray-300 rounded-2xl px-5 md:py-4 py-3 outline-none focus:border-[#d4a537] transition-all"
@@ -133,6 +202,8 @@ const ContactUs = () => {
                 <label className="block mb-2 font-medium">Phone Number</label>
 
                 <input
+                  value={mobile}
+                  onChange={(e) => setmobile(e.target.value)}
                   type="text"
                   placeholder="Enter your phone number"
                   className="w-full border border-gray-300 rounded-2xl px-5 md:py-4 py-3 outline-none focus:border-[#d4a537] transition-all"
@@ -144,6 +215,8 @@ const ContactUs = () => {
                 <label className="block mb-2 font-medium">Your Message</label>
 
                 <textarea
+                  value={message}
+                  onChange={(e) => setmessage(e.target.value)}
                   rows="5"
                   placeholder="Write your enquiry..."
                   className="w-full border border-gray-300 rounded-2xl px-5 md:py-4 py-3 outline-none focus:border-[#d4a537] transition-all resize-none"
@@ -151,9 +224,13 @@ const ContactUs = () => {
               </div>
 
               {/* BUTTON */}
-              <button className="w-full bg-[#d4a537] hover:bg-[#be912f] transition-all text-black py-4 rounded-2xl font-semibold flex items-center justify-center gap-3 shadow-lg">
+              <button
+                type="submit"
+                disabled={loading}
+                className="w-full bg-[#d4a537] hover:bg-[#be912f] transition-all text-black py-4 rounded-2xl font-semibold flex items-center justify-center gap-3 shadow-lg disabled:opacity-50"
+              >
                 <FaPaperPlane />
-                Send Enquiry
+                {loading ? "Sending..." : "Send Enquiry"}
               </button>
             </form>
           </div>

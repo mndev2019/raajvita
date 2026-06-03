@@ -1,38 +1,54 @@
+import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import axios from "axios";
+import { Base_Url } from "../../API/BaseUrl";
 
 function ProjectDetails() {
   const { slug } = useParams();
 
-  const project = {
-    title: "Raajvita Greens",
-    location: "Kanpur, Uttar Pradesh",
-    image:
-      "https://images.unsplash.com/photo-1500382017468-9049fed747ef",
-    area: "25 Acres",
-    type: "Land Development",
-    rera: "RERA123456",
-    description:
-      "Raajvita Greens is a premium land development project focused on creating long-term value through disciplined planning, transparent documentation, and legally secure processes.",
-    gallery: [
-      "https://images.unsplash.com/photo-1500382017468-9049fed747ef",
-      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab",
-      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750",
-    ],
-    features: [
-      "Prime Location",
-      "Transparent Documentation",
-      "Legal Verification",
-      "Investment Potential",
-      "Infrastructure Development",
-      "Secure Transactions",
-    ],
+  const [project, setProject] = useState(null);
+  const [loading, setLoading] = useState(true);
+
+  const getProjectDetails = async () => {
+    try {
+      const res = await axios.get(
+        `${Base_Url}/project/${slug}`
+      );
+
+      if (res.data.success) {
+        setProject(res.data.data);
+      }
+    } catch (error) {
+      console.log(error);
+    } finally {
+      setLoading(false);
+    }
   };
+
+  useEffect(() => {
+    getProjectDetails();
+  }, [slug]);
+
+  if (loading) {
+    return (
+      <div className="h-screen flex items-center justify-center text-2xl font-bold text-[#3c0d12]">
+        Loading...
+      </div>
+    );
+  }
+
+  if (!project) {
+    return (
+      <div className="h-screen flex items-center justify-center text-2xl font-bold text-red-500">
+        Project Not Found
+      </div>
+    );
+  }
 
   return (
     <>
       {/* Banner */}
       <section className="relative h-[600px]">
-
         <img
           src={project.image}
           alt={project.title}
@@ -42,7 +58,6 @@ function ProjectDetails() {
         <div className="absolute inset-0 bg-black/50"></div>
 
         <div className="absolute inset-0 flex items-center justify-center text-center px-6">
-
           <div>
             <h1 className="text-white text-5xl lg:text-7xl font-bold">
               {project.title}
@@ -59,6 +74,7 @@ function ProjectDetails() {
       <section className="lg:py-24 py-10 bg-[#faf7f2]">
         <div className="container mx-auto px-6 lg:px-16">
 
+          {/* Info Cards */}
           <div className="grid lg:grid-cols-3 gap-8">
 
             <div className="bg-white rounded-3xl p-8 shadow">
@@ -94,7 +110,6 @@ function ProjectDetails() {
 
           {/* Description */}
           <div className="md:mt-20 mt-10">
-
             <h2 className="md:text-4xl text-3xl font-bold text-[#3c0d12]">
               Project Overview
             </h2>
@@ -106,14 +121,13 @@ function ProjectDetails() {
 
           {/* Features */}
           <div className="md:mt-20 mt-10">
-
             <h2 className="md:text-4xl text-3xl font-bold text-[#3c0d12] mb-10">
               Key Features
             </h2>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
 
-              {project.features.map((feature, index) => (
+              {project.features?.map((feature, index) => (
                 <div
                   key={index}
                   className="bg-white rounded-2xl p-6 border border-[#ecd9b0]"
@@ -129,25 +143,23 @@ function ProjectDetails() {
 
           {/* Gallery */}
           <div className="md:mt-20 mt-10">
-
             <h2 className="md:text-4xl text-3xl font-bold text-[#3c0d12] mb-10">
               Project Gallery
             </h2>
 
             <div className="grid md:grid-cols-3 gap-6">
 
-              {project.gallery.map((img, index) => (
+              {project.gallery?.map((img, index) => (
                 <img
                   key={index}
                   src={img}
-                  alt=""
+                  alt={`gallery-${index}`}
                   className="rounded-3xl h-72 w-full object-cover"
                 />
               ))}
             </div>
           </div>
 
-         
         </div>
       </section>
     </>
