@@ -175,7 +175,7 @@ function Footer() {
 
                   <p className="text-[#f5e6c5] leading-7">
                     Office No. O-493, 4th Floor, Gaur City Center,
-                    Sector 4, Gautam Buddha Nagar,
+                    Sector 4, Greater Noida West , Gautam Buddha Nagar,
                     Uttar Pradesh - 201318, India
                   </p>
                 </div>
@@ -187,7 +187,9 @@ function Footer() {
                   </div>
 
                   <p className="text-[#f5e6c5]">
-                    +91 XXXXX XXXXX
+                    <a href="tel:+919953073083">+91 9953073083</a>
+                    <br />
+                    <a href="tel:+919654795824">+91 9654795824</a>
                   </p>
                 </div>
 
@@ -220,7 +222,7 @@ function Footer() {
 
               <div className="w-1.5 h-1.5 rounded-full bg-[#c89b3c]"></div>
 
-              <p>RERA Certified Development Firm</p>
+              <p>RERA / government approved projects Certified Development Firm</p>
             </div>
           </div>
         </div>

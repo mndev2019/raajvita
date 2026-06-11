@@ -46,19 +46,28 @@ function CSR() {
                 Building Communities, Empowering Futures
               </h2>
 
+             
               {/* Description */}
               <p className="text-[#5e4b42] md:text-lg text-md leading-8 mt-8">
-                At Raajvita Vista Developers, our vision of development extends
-                beyond real estate. We proudly support initiatives focused on
-                education, public libraries, and rural infrastructure through
-                the Rajendra Kavita Welfare Foundation.
+                At Raajvita Vista Developers, our vision of development extends beyond real
+                estate. We proudly support initiatives focused on education, public
+                libraries, and rural infrastructure through the Rajendra Kavita Welfare
+                Foundation.
               </p>
 
               <p className="text-[#5e4b42] md:text-lg text-md leading-8 mt-6">
-                Every partnership with Raajvita contributes towards creating
-                brighter opportunities and sustainable growth for rural and
-                semi-urban communities across India.
+                We proudly support initiatives focused on the education, grooming, growth,
+                and overall development of underprivileged children, helping them build a
+                brighter and better future.
               </p>
+
+              <p className="text-[#5e4b42] md:text-lg text-md leading-8 mt-6">
+                Every partnership with Raajvita contributes towards creating brighter
+                opportunities and sustainable growth for rural and semi-urban communities
+                across India.
+              </p>
+           
+
 
               {/* CSR Cards */}
               <div className="space-y-5 mt-10">

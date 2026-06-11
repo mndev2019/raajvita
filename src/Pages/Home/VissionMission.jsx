@@ -16,7 +16,7 @@ function VisionMission() {
     {
       icon: <FaShieldAlt />,
       title: "100% Regulatory Compliance",
-      desc: "Every development follows strict RERA guidelines and legally verified documentation.",
+      desc: "Every development follows strict RERA / government approved projects guidelines and legally verified documentation.",
     },
     {
       icon: <FaBalanceScale />,
@@ -89,6 +89,7 @@ function VisionMission() {
 
             {/* Mission Cards */}
             <div className="space-y-6">
+              
               
               {missionData.map((item, index) => (
                 <div

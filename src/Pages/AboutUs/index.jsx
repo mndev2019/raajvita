@@ -41,7 +41,7 @@ const AboutUs = () => {
               transparency in real estate development.
             </p>
 
-            <button onClick={()=> navigate('/projects')} className="mt-8 bg-[#c89b3c] hover:bg-[#b88a2f] transition-all text-white px-8 py-3 rounded-full font-semibold shadow-xl">
+            <button onClick={() => navigate('/projects')} className="mt-8 bg-[#c89b3c] hover:bg-[#b88a2f] transition-all text-white px-8 py-3 rounded-full font-semibold shadow-xl">
               Explore More
             </button>
           </div>
@@ -57,7 +57,7 @@ const AboutUs = () => {
 
             <div className="absolute -bottom-8 -left-8 bg-[#c89b3c] text-white p-6 rounded-2xl shadow-2xl">
               <h2 className="text-3xl font-bold">100%</h2>
-              <p className="font-medium">RERA Certified</p>
+              <p className="font-medium">RERA / Govt. Approved Projects Certified</p>
             </div>
           </div>
         </div>
@@ -170,8 +170,11 @@ const AboutUs = () => {
               <h3 className="text-2xl font-semibold mb-4">Our Mission</h3>
 
               <p className="text-gray-300 leading-relaxed">
-                Deliver legally secure and high-quality projects with complete
-                transparency and precision.
+                With 41 years of sincere and dedicated experience in Defence Services and
+                Civil life, founded on honesty and loyalty, RaajVita Group is committed to
+                delivering not only timely project completion but also exceptional service to
+                all investors, partners, buyers, and associates associated with us.
+
               </p>
             </div>
 

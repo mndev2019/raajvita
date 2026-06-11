@@ -10,7 +10,7 @@ function Trust() {
   const data = [
     {
       icon: <FaShieldAlt />,
-      title: "RERA Certified Projects",
+      title: "RERA/ government approved Projects",
       desc: "Every development follows strict legal and regulatory compliance standards for completely secure investment.",
     },
     {
@@ -53,7 +53,7 @@ function Trust() {
 
             <p className="text-[#5e4b42] md:text-lg text-md leading-8 mt-6">
               Raajvita Vista Developers combines military-grade discipline,
-              complete legal transparency, and RERA-certified development
+              complete legal transparency, and RERA / government approved projects development
               practices to deliver secure and future-ready real estate
               opportunities.
             </p>

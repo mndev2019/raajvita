@@ -121,7 +121,12 @@ const ContactUs = () => {
 
                 <div>
                   <h3 className="text-xl font-semibold mb-2">Phone Number</h3>
-                  <p className="text-gray-600">+91 xxxxxxxxxx</p>
+
+                  <p className="text-gray-600">
+                    <a href="tel:+919953073083">+91 9953073083</a>
+                    {" | "}
+                    <a href="tel:+919654795824">+91 9654795824</a>
+                  </p>
                 </div>
               </div>
 
@@ -152,7 +157,7 @@ const ContactUs = () => {
                   <h3 className="text-xl font-semibold mb-2">Office Address</h3>
                   <p className="text-gray-600">
                     Office No. O-493, 4th Floor, Gaur City Center,
-                    Sector 4, Gautam Buddha Nagar,
+                    Sector 4, Greater Noida West, Gautam Buddha Nagar,
                     Uttar Pradesh - 201318, India
                   </p>
                 </div>
