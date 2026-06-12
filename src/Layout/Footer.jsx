@@ -222,7 +222,7 @@ function Footer() {
 
               <div className="w-1.5 h-1.5 rounded-full bg-[#c89b3c]"></div>
 
-              <p>RERA / government approved projects Certified Development Firm</p>
+              <p>RERA & Government-Approved Development Firm</p>
             </div>
           </div>
         </div>

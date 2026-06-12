@@ -16,7 +16,7 @@ function VisionMission() {
     {
       icon: <FaShieldAlt />,
       title: "100% Regulatory Compliance",
-      desc: "Every development follows strict RERA / government approved projects guidelines and legally verified documentation.",
+      desc: "Every development follows strict RERA and government approval guidelines and is backed by legally verified documentation.",
     },
     {
       icon: <FaBalanceScale />,

@@ -20,7 +20,7 @@ function WhyRaajvita() {
     },
     {
       left: "Unverified Property Deals",
-      right: "RERA / government approved projects Certified Developments",
+      right: "Certified RERA & Government-Approved Projects",
       icon: <FaShieldAlt />,
     },
     {

@@ -4,142 +4,117 @@ function About() {
   return (
     <>
       {/* Vision, Mission & Core Values */}
-      <section className="relative lg:py-24 py-10 bg-white overflow-hidden">
-        <div className="absolute top-0 left-0 w-80 h-80 bg-[#d4a63f]/10 blur-3xl rounded-full"></div>
-        <div className="absolute bottom-0 right-0 w-96 h-96 bg-[#8b1e2d]/10 blur-3xl rounded-full"></div>
+    <section className="relative lg:py-24 py-14 bg-[#3c0d12] overflow-hidden">
 
-        <div className="container mx-auto px-6 lg:px-16 relative z-10">
-          <div className="text-center max-w-4xl mx-auto">
-            <span className="text-[#c89b3c] uppercase tracking-[4px] text-sm font-medium">
-              Our Foundation
-            </span>
+  {/* Background Effects */}
+  <div className="absolute top-0 left-0 w-96 h-96 bg-[#d4a63f]/10 blur-3xl rounded-full"></div>
+  <div className="absolute bottom-0 right-0 w-96 h-96 bg-white/5 blur-3xl rounded-full"></div>
 
-            <h2 className="text-3xl lg:text-5xl font-semibold text-[#3c0d12] mt-5">
-              Vision, Mission & Core Values
-            </h2>
-          </div>
+  <div className="container mx-auto px-6 lg:px-16 relative z-10">
 
-          {/* Vision */}
-          <div className="md:mt-16 mt-10 bg-[#faf7f2] border border-[#ecd9b0] rounded-[32px] md:p-10 p-8">
-            <h3 className="md:text-3xl text-2xl font-semibold text-[#3c0d12]">
-              Our Vision
-            </h3>
+    {/* Heading */}
+    <div className="text-center max-w-4xl mx-auto">
+      <span className="uppercase tracking-[5px] text-[#d4a63f] text-sm">
+        Our Foundation
+      </span>
 
-            <p className="text-[#5e4b42] md:text-lg text-md leading-8 mt-5">
-              To become India’s most trusted, compliant, and disciplined real
-              estate development firm, recognized for transforming land into
-              thriving, high-value assets while maintaining uncompromising
-              ethics, legal purity, and timely project delivery.
-            </p>
-          </div>
+      <h2 className="text-4xl lg:text-5xl font-semibold text-white mt-5">
+        Vision, Mission & Core Values
+      </h2>
 
-          {/* Mission */}
-          <div className="md:mt-12 mt-10">
-            <h3 className="md:text-3xl text-2xl font-semibold text-[#3c0d12] mb-8">
-              Our Mission
-            </h3>
-            <div className="">
-              <p className="text-[#5e4b42] md:text-lg text-md leading-8 mb-5">
-                With 41 years of sincere and dedicated experience in Defence Services and
-                Civil life, founded on honesty and loyalty, RaajVita Group is committed to
-                delivering not only timely project completion but also exceptional service to
-                all investors, partners, buyers, and associates associated with us.
-              </p>
-            </div>
-            <div className="grid md:grid-cols-2 gap-6">
+      <div className="w-24 h-1 bg-[#c89b3c] mx-auto rounded-full mt-6"></div>
+    </div>
 
-              <div className="bg-white border border-[#ecd9b0] rounded-3xl p-7">
-                <h4 className="text-[#3c0d12] text-xl font-semibold">
-                  Military-Grade Execution
-                </h4>
-                <p className="text-[#5e4b42] mt-3 leading-7">
-                  Every project is executed with strategic planning,
-                  precision, discipline, and punctuality inspired by armed
-                  forces standards.
-                </p>
-              </div>
+    {/* Vision & Mission */}
+    <div className="grid lg:grid-cols-2 gap-8 mt-16">
 
-              <div className="bg-white border border-[#ecd9b0] rounded-3xl p-7">
-                <h4 className="text-[#3c0d12] text-xl font-semibold">
-                  100% Regulatory Compliance
-                </h4>
-                <p className="text-[#5e4b42] mt-3 leading-7">
-                  Maintaining complete legal transparency through strict
-                  adherence to RERA / government approved projects guidelines and all applicable regulations.
-                </p>
-              </div>
+      <div className="bg-white/5 backdrop-blur-lg border border-[#c89b3c]/30 rounded-[30px] p-8 hover:-translate-y-2 transition-all duration-500">
 
-              <div className="bg-white border border-[#ecd9b0] rounded-3xl p-7">
-                <h4 className="text-[#3c0d12] text-xl font-semibold">
-                  Absolute Transparency
-                </h4>
-                <p className="text-[#5e4b42] mt-3 leading-7">
-                  Building long-term trust through clear documentation,
-                  transparent communication, and honest business practices.
-                </p>
-              </div>
+        <h3 className="text-3xl font-semibold text-[#d4a63f] mb-5">
+          Our Vision
+        </h3>
 
-              <div className="bg-white border border-[#ecd9b0] rounded-3xl p-7">
-                <h4 className="text-[#3c0d12] text-xl font-semibold">
-                  Sustainable Growth
-                </h4>
-                <p className="text-[#5e4b42] mt-3 leading-7">
-                  Creating value for clients while contributing meaningfully
-                  to infrastructure development and social upliftment.
-                </p>
-              </div>
-            </div>
-          </div>
+        <p className="text-gray-300 leading-8">
+          To become India’s most trusted, compliant, and disciplined real
+          estate development firm, recognized for transforming land into
+          thriving, high-value assets while maintaining uncompromising
+          ethics, legal purity, and timely project delivery.
+        </p>
 
-          {/* Core Values */}
-          <div className="md:mt-16 mt-10">
-            <h3 className="md:text-3xl text-2xl font-semibold text-[#3c0d12] mb-8">
-              Our Core Values
-            </h3>
+      </div>
 
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-              <div className="bg-[#faf7f2] border border-[#ecd9b0] rounded-3xl p-6">
-                <h4 className="text-[#3c0d12] font-semibold text-xl">
-                  Integrity First
-                </h4>
-                <p className="text-[#5e4b42] mt-3">
-                  Honesty is our non-negotiable foundation in every decision
-                  and commitment.
-                </p>
-              </div>
+      <div className="bg-white/5 backdrop-blur-lg border border-[#c89b3c]/30 rounded-[30px] p-8 hover:-translate-y-2 transition-all duration-500">
 
-              <div className="bg-[#faf7f2] border border-[#ecd9b0] rounded-3xl p-6">
-                <h4 className="text-[#3c0d12] font-semibold text-xl">
-                  Purity & Compliance
-                </h4>
-                <p className="text-[#5e4b42] mt-3">
-                  Complete transparency backed by RERA / government approved projects compliance and verified
-                  documentation.
-                </p>
-              </div>
+        <h3 className="text-3xl font-semibold text-[#d4a63f] mb-5">
+          Our Mission
+        </h3>
 
-              <div className="bg-[#faf7f2] border border-[#ecd9b0] rounded-3xl p-6">
-                <h4 className="text-[#3c0d12] font-semibold text-xl">
-                  Discipline
-                </h4>
-                <p className="text-[#5e4b42] mt-3">
-                  Strict adherence to timelines, quality control, and
-                  standardized execution processes.
-                </p>
-              </div>
+        <p className="text-gray-300 leading-8">
+          With 41 years of sincere and dedicated experience in Defence
+          Services and Civil life, founded on honesty and loyalty,
+          RaajVita Group is committed to delivering not only timely
+          project completion but also exceptional service to all
+          investors, partners, buyers, and associates associated with us.
+        </p>
 
-              <div className="bg-[#faf7f2] border border-[#ecd9b0] rounded-3xl p-6">
-                <h4 className="text-[#3c0d12] font-semibold text-xl">
-                  Social Responsibility
-                </h4>
-                <p className="text-[#5e4b42] mt-3">
-               We proudly support initiatives focused on the education, grooming, growth, and development of underprivileged children, helping them build a brighter and better future.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      </div>
+
+    </div>
+
+    {/* Core Values */}
+    <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mt-14">
+
+      <div className="bg-white/5 backdrop-blur-lg border border-[#c89b3c]/30 rounded-3xl p-6 hover:bg-[#c89b3c]/10 transition-all duration-300">
+        <h4 className="text-[#d4a63f] text-xl font-semibold">
+          Military-Grade Execution
+        </h4>
+
+        <p className="text-gray-300 mt-4 leading-7">
+          Every project is executed with strategic planning,
+          precision, discipline, and punctuality inspired by armed
+          forces standards.
+        </p>
+      </div>
+
+      <div className="bg-white/5 backdrop-blur-lg border border-[#c89b3c]/30 rounded-3xl p-6 hover:bg-[#c89b3c]/10 transition-all duration-300">
+        <h4 className="text-[#d4a63f] text-xl font-semibold">
+          100% Regulatory Compliance
+        </h4>
+
+        <p className="text-gray-300 mt-4 leading-7">
+          Maintaining complete legal transparency through strict
+          adherence to RERA & Government-Approved Projects guidelines
+          and all applicable regulations.
+        </p>
+      </div>
+
+      <div className="bg-white/5 backdrop-blur-lg border border-[#c89b3c]/30 rounded-3xl p-6 hover:bg-[#c89b3c]/10 transition-all duration-300">
+        <h4 className="text-[#d4a63f] text-xl font-semibold">
+          Absolute Transparency
+        </h4>
+
+        <p className="text-gray-300 mt-4 leading-7">
+          Building long-term trust through clear documentation,
+          transparent communication, and honest business practices.
+        </p>
+      </div>
+
+      <div className="bg-white/5 backdrop-blur-lg border border-[#c89b3c]/30 rounded-3xl p-6 hover:bg-[#c89b3c]/10 transition-all duration-300">
+        <h4 className="text-[#d4a63f] text-xl font-semibold">
+          Sustainable Growth
+        </h4>
+
+        <p className="text-gray-300 mt-4 leading-7">
+          Creating value for clients while contributing meaningfully
+          to infrastructure development and social upliftment.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
 
       {/* Rajendra Singh Chaudhary */}
       <section className="relative py-10 bg-[#faf7f2] overflow-hidden">
@@ -211,17 +186,7 @@ function About() {
                 A Legacy of Honor, Discipline & Visionary Leadership
               </h2>
 
-              {/* 
-              <div className="md:mt-12 mt-10 bg-white border-l-4 border-[#c89b3c] rounded-r-3xl p-8 shadow-sm">
-                <p className="text-[#3c0d12] md:text-lg text-md italic leading-8">
-                  “Founder of RaajVita, an MBA professional with over 20 years of distinguished service in the Indian Air Force. He has also worked with ICICI Bank and the Ministry of Child Development, Government of India. For the past 10 years, he has been actively engaged in the real estate sector in Noida and has maintained an unblemished track record of honesty, integrity, and professionalism throughout his career.”
-                
-                </p>
-
-                <h5 className="text-[#c89b3c] font-semibold mt-5">
-                  — Rajendra Singh Chaudhary
-                </h5>
-              </div> */}
+            
 
               <div className="md:mt-12 mt-10 bg-white border-l-4 border-[#c89b3c] rounded-r-3xl p-8 shadow-sm">
                 <h4 className="text-[#3c0d12] text-2xl font-semibold mb-4">
@@ -255,7 +220,7 @@ function About() {
 
                 <div className="bg-white border border-[#ecd9b0] rounded-3xl p-6">
                   <h4 className="text-[#3c0d12] text-xl font-semibold">
-                    RERA / government approved projects Certified Professional
+                    RERA & Government-Approved Projects
                   </h4>
 
                   <p className="text-[#5e4b42] mt-3 leading-7">

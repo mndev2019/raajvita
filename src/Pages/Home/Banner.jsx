@@ -23,7 +23,7 @@ function Banner() {
             
             {/* Small Badge */}
             <div className="inline-block border border-[#d4a63f] text-[#f3d58a] px-5 py-2 rounded-full text-sm tracking-[3px] uppercase mb-6 backdrop-blur-md">
-              Trusted • Transparent • RERA / government approved projects Certified
+              Trusted • Transparent • RERA / government approved projects
             </div>
 
             {/* Heading */}

@@ -3,7 +3,7 @@ import Banner from "./Banner"
 import CSR from "./CSR"
 import Process from "./Process"
 import Trust from "./Trust"
-import VisionMission from "./VissionMission"
+// import VisionMission from "./VissionMission"
 import WhyRaajvita from "./WhyRaajvita"
 
 
@@ -13,7 +13,7 @@ function Home() {
    <Banner/>
    <Trust/>
    <About/>
-   <VisionMission/>
+   {/* <VisionMission/> */}
    <CSR/>
    <Process/>
    <WhyRaajvita/>

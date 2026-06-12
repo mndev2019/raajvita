@@ -57,7 +57,7 @@ const AboutUs = () => {
 
             <div className="absolute -bottom-8 -left-8 bg-[#c89b3c] text-white p-6 rounded-2xl shadow-2xl">
               <h2 className="text-3xl font-bold">100%</h2>
-              <p className="font-medium">RERA / Govt. Approved Projects Certified</p>
+              <p className="font-medium">RERA & Government-Approved Projects</p>
             </div>
           </div>
         </div>

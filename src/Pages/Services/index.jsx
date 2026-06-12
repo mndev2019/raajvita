@@ -22,7 +22,7 @@ function Services() {
     {
       icon: <FaBalanceScale />,
       title: "Legal & Regulatory Compliance",
-      desc: "Ensuring every project follows strict RERA / government approved projects guidelines and legal requirements for complete client confidence.",
+      desc: "Ensuring every project is RERA and government-approved, following strict legal and regulatory requirements to provide complete client confidence.",
     },
     {
       icon: <FaChartLine />,
@@ -130,7 +130,7 @@ function Services() {
             <div className="bg-[#f8f4ec] rounded-3xl p-8 text-center">
               <h3 className="text-5xl font-bold text-[#c89b3c]">100%</h3>
               <p className="mt-4 text-[#3c0d12] font-semibold">
-                RERA / Govt. Approved Projects
+                RERA & Government-Approved Projects
               </p>
             </div>
 
